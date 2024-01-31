@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+main{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+main>h3{
+    color: rgb(38, 121, 131);
+    padding: 10px 10px;
+}
+.resume{
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.resume>div{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 2px 3px #49bf90;
+    border-radius: 13px;
+    padding: 10px;
+    width: 150px;
+}
+.newItem{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.divDesc, .divType, .divAmount{
+    display: flex;
+    flex-direction: column;
+}
+
+.newItem>button{
+    background-color: rgb(11, 237, 214);
+    color: rgb(58, 58, 54);
+    border: none;
+    padding: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 34px;
+}
+
+input, select{
+    padding: 5px;
+}
+.divTable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 98%;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+th{
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+}
+i{
+    font-size: 25px;
+}
+.bxs-chevron-up-circle {
+    color: #00C9A7;
+}
+.bxs-chevron-down-circle{
+    color: #f21d0a;
+}
+.columnAction{
+    width: 40px;
+    text-align: center;
+}
+.columnAction>button{
+   background: transparent;
+   border: none;
+}
+.columnAmout{
+    width: 30%;
+ 
+}
+.columnType{
+    width: 80px;
+    text-align: center;
+}
